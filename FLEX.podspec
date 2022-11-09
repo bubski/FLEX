@@ -40,19 +40,12 @@ Pod::Spec.new do |spec|
        'CLANG_CXX_LANGUAGE_STANDARD' => 'gnu++11',
   }
   spec.compiler_flags   = "-Wno-unsupported-availability-guard", "-Wno-deprecated-declarations"
-  spec.public_header_files = [ "Classes/*.h", "Classes/Manager/*.h", "Classes/Toolbar/*.h",
-                               "Classes/Core/Controllers/*.h", "Classes/Core/Views/*.h",
-                               "Classes/Core/Views/Cells/*.h", "Classes/Core/*.h", 
-                               "Classes/Utility/Categories/*.h",
-                               "Classes/Utility/Runtime/Objc/**/*.h",
-                               "Classes/ObjectExplorers/*.h",
-                               "Classes/ObjectExplorers/Sections/*.h",
-                               
-                               "Classes/Utility/FLEXMacros.h",
-                               "Classes/Utility/FLEXAlert.h",
-                               "Classes/Utility/FLEXResources.h",
-                               "Classes/ObjectExplorers/Sections/Shortcuts/FLEXShortcut.h",
-                               "Classes/ObjectExplorers/Sections/Shortcuts/FLEXShortcutsSection.h",
-                               "Classes/GlobalStateExplorers/Globals/FLEXGlobalsEntry.h"
+  spec.public_header_files = [ "Classes/FLEX.h",
+                               "Classes/Manager/FLEXManager.h",
+                               "Classes/Manager/FLEXManager+Extensibility.h",
+                               "Classes/Manager/FLEXManager+Networking.h",
+                               "Classes/Toolbar/FLEXExplorerToolbar.h",
+                               "Classes/Toolbar/FLEXExplorerToolbarItem.h",
+                               "Classes/GlobalStateExplorers/Globals/FLEXGlobalsEntry.h",
                               ]
 end
