@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@class FLEXExplorerToolbarItem;
+#import "FLEXExplorerToolbarItem.h"
 
 NS_ASSUME_NONNULL_BEGIN
 

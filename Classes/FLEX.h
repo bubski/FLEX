@@ -10,16 +10,3 @@
 #import "FLEXManager.h"
 #import "FLEXManager+Extensibility.h"
 #import "FLEXManager+Networking.h"
-
-#import "FLEXExplorerToolbar.h"
-#import "FLEXExplorerToolbarItem.h"
-#import "FLEXGlobalsEntry.h"
-
-#import "FLEX-Core.h"
-#import "FLEX-Runtime.h"
-#import "FLEX-Categories.h"
-#import "FLEX-ObjectExploring.h"
-
-#import "FLEXMacros.h"
-#import "FLEXAlert.h"
-#import "FLEXResources.h"
